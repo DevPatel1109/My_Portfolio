@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="mediaqueries.css" />
+</head>
+<body>
+<nav id="desktop-nav">
+
+  <div>
+    <ul class="nav-links">
+      <li><a href="#about">Education</a></li>
+      <li><a href="#experience">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </div>
+</nav>
+<nav id="hamburger-nav">
+  <div class="logo">DEV Patel</div>
+  <div class="hamburger-menu">
+    <div class="hamburger-icon" onclick="toggleMenu()">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+    <div class="menu-links">
+      <li><a href="#about" onclick="toggleMenu()">Education</a></li>
+      <li><a href="#experience" onclick="toggleMenu()">Skills</a></li>
+      <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+      <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+    </div>
+  </div>
+</nav>
+<section id="profile">
+ 
+  <div class="section__text">
+    <p class="section__text__p1">Hello, I'm</p>
+    <h1 class="title">Dev Patel</h1>
+    <p class="section__text__p2">Android App Developer</p>
+    <p class="section__text__p2">App UI/UX Design</p>
+    <div class="btn-container">
+      <button
+              class="btn btn-color-2"
+              onclick="window.open('./assets1/Resume.pdf')"
+      >
+        Download CV
+      </button>
+      <button class="btn btn-color-1" onclick="location.href='#contact'">
+        Contact Info
+      </button>
+    </div>
+    <div id="socials-container">
+      <img
+              src="./assets1/linkedin.png"
+          
+              alt="My LinkedIn profile"
+              class="icon"
+              onclick="location.href='https://www.linkedin.com/in/patel-dev-4686bb224/'"
+      />
+      <img
+              src="./assets1/github.png"
+              alt="My Github profile"
+              class="icon"
+              onclick="location.href='https://github.com/DevPatel1109'"
+      />
+    </div>
+  </div>
+</section>
+<section id="about">
+ 
+  <h1 class="title">Education</h1>
+  <div class="section-container">
+
+    <div class="about-details-container">
+      <div class="about-containers">
+        <div class="details-container">
+          <img
+                  src="./assets1/gandhi_clg_logo.jpg"
+                  alt="Experience icon"
+                  class="icon"
+          />
+
+          <h3>Diploma In Information Technology</h3>
+          <p>Dr.S. & S.S. Gandhy College Of Engineering & Technology<br> Year 2019 - 2022 <br> CGPA : 8.73 </p>
+        </div>
+        <div class="details-container">
+          <img
+                  src="./assets1/scet_logo.jpg"
+                  alt="Education icon"
+                  class="icon"
+          />
+
+          <h3>B.TECH In Information Technology</h3>
+          <p>Sarvajanik College of Engineering & Technology (SCET)<br> Year 2022 - 2025 <br> CGPA : 9.03</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <img
+          src="./assets1/arrow.png"
+          alt="Arrow icon"
+          class="icon arrow"
+          onclick="location.href='#experience'"
+  />
+</section>
+<section id="experience">
+
+  <h1 class="title">Skills</h1>
+  <div class="experience-details-container">
+    <div class="about-containers">
+      <div class="details-container">
+        <h2 class="experience-sub-title">Languages & Concepts </h2>
+
+
+        <div class="article-container">
+          <table>
+            <tbody>
+            <tr >
+              <td class="icon-cell" >
+                <img src="./assets1/checkmark.png" alt="Experience icon" class="icon" />
+              </td>
+              <td><h3>C</h3></td>
+
+            </tr>
+            <tr>
+
+              <td class="icon-cell">
+                <img src="./assets1/checkmark.png" alt="Experience icon" class="icon" />
+              </td>
+              <td><h3>Java</h3></td>
+
+            </tr>
+
+            
+
+            <tr>
+              <td class="icon-cell">
+                <img src="./assets1/checkmark.png" alt="Experience icon" class="icon" />
+              </td>
+              <td><h3>PHP</h3></td>
+             
+            </tr>
+
+            <tr>
+              <td></td>
+            </tr>
+
+            <tr>
+              <td class="icon-cell">
+                <img src="./assets1/checkmark.png" alt="Experience icon" class="icon" />
+              </td>
+              <td><h3>DBMS</h3></td>
+        
+              
+            </tr>
+
+            </tbody>
+          </table>
+        </div>
+
+      </div>
+      <div class="details-container">
+        <h2 class="experience-sub-title">Technologies</h2>
+
+        <div class="article-container">
+          <table>
+            <tbody>
+            <tr>
+              <td class="icon-cell">
+                <img src="./assets1/checkmark.png" alt="Experience icon" class="icon" />
+              </td>
+
+              <td><h3>Android</h3></td>
+
+        
+
+            </tr>
+
+            <tr>
+              <td></td>
+            </tr>
+
+         
+
+            <tr>
+              <td class="icon-cell">
+                <img src="./assets1/checkmark.png" alt="Experience icon" class="icon" />
+              </td>
+              <td><h3>Firebase</h3></td>
+            </tr>
+
+      
+            <tr>
+              <td class="icon-cell">
+                <img src="./assets1/checkmark.png" alt="Experience icon" class="icon" />
+              </td>
+              <td><h3>MySQL</h3></td>
+
+            </tr>
+            <tr>
+
+              <td class="icon-cell">
+                <img src="./assets1/checkmark.png" alt="Experience icon" class="icon" />
+              </td>
+              <td><h3>Git</h3></td>
+            </tr>
+
+            </tbody>
+          </table>
+        </div>
+
+      </div>
+    </div>
+  </div>
+  <img
+          src="./assets1/arrow.png"
+          alt="Arrow icon"
+          class="icon arrow"
+          onclick="location.href='#projects'"
+  />
+</section>
+<section id="projects">
+
+  <h1 class="title">Projects</h1>
+
+
+  
+  <div class="experience-details-container">
+    <div class="about-containers">
+      <div class="details-container color-container">
+        <div class="article-container">
+          <img
+                  src="./assets1/new.png"
+                  alt="Project 1"
+                  class="project-img"
+          />
+        </div>
+        <h2 class="experience-sub-title project-title">APP UI : FootFashion </h2>
+        <div class="btn-container">
+          <button
+                  class="btn btn-color-2 project-btn"
+                  onclick="location.href='https://github.com/DevPatel1109/FootFashion-E-commerce-App-Design'"
+          >
+            Github
+          </button>
+          <button
+                  class="btn btn-color-2 project-btn"
+                  onclick="location.href='https://www.figma.com/design/33eD864xPEEEjaQh5utPim/FootFashion---E-commerce-App-Design?node-id=0-1&t=7YAht0hCth7U4cYd-1'"
+          >
+            Figma
+          </button>
+        </div>
+      </div>
+      
+      
+      <div class="details-container color-container">
+        <div class="article-container1">
+          <img
+                  src="./assets1/new2.png"
+                  alt="Project 1"
+                  class="project-img"
+          />
+        </div>
+        <h2 class="experience-sub-title project-title">APP UI : DoctorHub </h2>
+        <div class="btn-container">
+          <button
+                  class="btn btn-color-2 project-btn"
+                  onclick="location.href='https://github.com/DevPatel1109/DoctorHub-App-UI-Design.git'"
+          >
+            Github
+          </button>
+          <button
+                  class="btn btn-color-2 project-btn"
+                  onclick="location.href='https://www.figma.com/design/onwmQO6On224CInZmWjvRK/DoctorHub-App---Ui-Design?node-id=0-1&t=xsIQ3gclDrCYAv9z-1'"
+          >
+            Figma
+          </button>
+        </div>
+      </div>
+      
+
+
+      <div class="details-container color-container">
+        <div class="article-container">
+          <img
+                  src="./assets1/new1.png"
+                  alt="Project 2"
+                  class="project-img"
+          />
+        </div>
+        <h2 class="experience-sub-title project-title">Weather App</h2>
+        <div class="btn-container">
+          <button
+                  class="btn btn-color-2 project-btn"
+                  onclick="location.href='https://github.com/DevPatel1109/Weather-app'"
+          >
+            Github
+          </button>
+          
+        </div>
+      </div>
+
+
+
+
+
+
+    </div>
+  </div>
+  <img
+          src="./assets1/arrow.png"
+          alt="Arrow icon"
+          class="icon arrow"
+          onclick="location.href='#contact'"
+  />
+</section>
+<section id="contact">
+
+  <h1 class="title">Contact Me</h1>
+  <div class="contact-info-upper-container">
+    <div class="contact-info-container">
+      <img
+              src="./assets1/email.png"
+              alt="Email icon"
+              class="icon contact-icon email-icon"
+      />
+      <p><a href="mailto:pateldevd1109@gmail.com">pateldevd1109@gmail.com</a></p>
+    </div>
+    <div class="contact-info-container">
+      <img
+              src="./assets1/linkedin.png"
+              alt="LinkedIn icon"
+              class="icon contact-icon"
+      />
+      <p><a href="https://www.linkedin.com/in/patel-dev-4686bb224/">LinkedIn</a></p>
+    </div>
+  </div>
+</section>
+<footer>
+  <p>Copyright &#169; 2024 Dev Patel. All Rights Reserved.</p>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>
